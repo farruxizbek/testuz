@@ -95,7 +95,7 @@ const { Qiwi } = require('node-qiwi-api');
 const qiwi = new Qiwi('934a7b38fa98541750f0d8505d42b155');
 
 const Telegram = require('node-telegram-bot-api');
-const bot = new Telegram('983137733:AAG1KC2DdVSK7Kw-0PIAtPgbXTJ1kItbJQY', { polling: true });
+const bot = new Telegram('1096541213:AAFWc1qw5beCJ0e8RXGe7r7HVekQzlAV9TU', { polling: true });
 
 bot.on('message', async (message) => {
 	message.send = (text, params) => bot.sendMessage(message.chat.id, text, params);
